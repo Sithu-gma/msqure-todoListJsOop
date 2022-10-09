@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js oop</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+            width: 100%;
+            background-color: skyblue;
+        }
+        .container {
+            width: 30rem;
+            margin: 2rem auto;
+        }
+        .container .title {
+            text-align: center;
+        }
+        .container .form{
+            background-color: #fff;
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        .form input {
+            flex: 1;
+            padding: .7rem;
+            border:none;
+            background-color: transparent;
+            outline: none;
+        }
+        .container input {
+            width: 6 0%;
+        }
+        .form .btn {
+            background-color: darkblue;
+            padding: .7rem;
+            color: #fff;
+            cursor: pointer;
+            border:none;
+            
+        }
+        .list span{
+            cursor: pointer;
+        }
+        .todo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* align-items: center; */
+            gap: 0.5rem;
+            padding: 0.5rem;
+            margin: .5rem;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">js oop</h1>
+        <form action="" class="form" data-form > 
+            <input type="text " placeholder="task..." data-input >
+            <button class="btn">Submit</button>
+        </form>
+        <div class="lists" data-lists>
+            <!-- <div class="todo" data-list>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Commodi, aliquid. Explicabo tempore cupiditate id officia.</p>
+                <span>X</span>
+            </div> -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
